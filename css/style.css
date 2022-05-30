@@ -40,6 +40,9 @@ body{
     justify-items: center;
 }
 
+:root {
+    --bs-body-line-height: auto
+}
 
 
 /* Header */
@@ -86,6 +89,7 @@ nav {
 }
 .links:hover {
     border-bottom: 2px solid ;
+    color: black;
     
 }
 
@@ -104,7 +108,7 @@ main{
     max-width: 100%;
     height: auto;
     position: relative;
-    right: 12%;
+    left: 25%;
 }
 
 .logo img{
@@ -120,7 +124,7 @@ main{
     border-radius: 10px;
     position: relative;
     top: 10%;
-    left: 10%;
+    right: 30%;
     display: flex;
     justify-content: center;
 }
@@ -178,7 +182,8 @@ footer{
     border-radius: 1em;
     display: grid;
     grid-row: 4 / 12;
-    grid-column: 2/ 12;
+    grid-column: 3/ 11;
+    
  }
 
  
@@ -220,6 +225,7 @@ footer{
     align-items: center;
     flex-direction: column;
     gap: 4rem;
+    padding: 4rem;
 
 }
 
@@ -238,9 +244,17 @@ footer{
 
 }
 
+.about_text{
+    font-size: 2em;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
 /*animation logo*/
 @keyframes animation_logo {
-    from {transform: translate(700px, 200px) scale(25%) ;}
+    from {transform: translate(450px, 200px) scale(25%) ;}
     to {transform: translate(0px, 0px) scale(100%) ;}
 
 }
