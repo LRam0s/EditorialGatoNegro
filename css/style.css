@@ -86,6 +86,7 @@ nav {
 }
 .links:hover {
     border-bottom: 2px solid ;
+    color: black;
     
 }
 
@@ -158,7 +159,7 @@ footer{
     top: 12%;
 }
 
-/* general animations -- link, background box, main title-- */
+/* main area */
 .main_title{
     background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.612),rgba(135, 107, 65, 0.612)  );
     height: 8rem;
@@ -213,6 +214,7 @@ footer{
 
 }
 
+/*Contact*/
 
 .contact{
     display: flex;
@@ -238,6 +240,36 @@ footer{
 
 }
 
+/*about*/
+.about_text{
+    font-size: 2em;
+    padding: 1rem;
+}
+
+/*carrousel*/
+
+.ubicate{
+    grid-row: 5/11;
+    grid-column: 3/10;
+    position: relative;
+    left: 8%;
+}
+
+.card{
+    background-image: linear-gradient(to bottom,rgba(35, 30, 23, 0.612),rgba(114, 78, 24, 0.612)  );
+    font-size: 2em;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    height: 40rem;
+    width: 110rem;
+}
+.card img{
+    width: 100%;
+}
+
+
 /*animation logo*/
 @keyframes animation_logo {
     from {transform: translate(700px, 200px) scale(25%) ;}
@@ -246,10 +278,10 @@ footer{
 }
 
 
-
+/* media querie*/
 @media screen and (max-width: 480px) {
     
-    /*Header esta bien*/
+    /*Header*/
     
     header {
         max-width: 100%;
@@ -323,7 +355,7 @@ footer{
         font-family:serif;
     }
 
-    /* Footer esta bien */
+    /*Footer*/
 
     
     footer{
