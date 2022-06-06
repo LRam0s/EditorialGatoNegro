@@ -1,0 +1,21 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    .contact_form__label{
+        color: black;
+        font-size: 2em;
+        
+    }
+    .contact__info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5rem;
+        font-size: 2em;                                   
+    
+    }
+}
