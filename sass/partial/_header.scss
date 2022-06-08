@@ -1,5 +1,5 @@
 header{
-    background-color: $primary-color;
+    background-color: map-get($colors, primary);
     border-radius: 10px;
     height: 60px;
     width: 99%;
@@ -7,10 +7,7 @@ header{
     position: relative;
     top: 15%;
     nav {
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-        justify-content: space-between;
+        @include flex (row, space-between, nowrap, stretch, center, 2rem);
         padding: 2rem;
         position: relative;
         bottom: 10%;
@@ -23,15 +20,13 @@ header{
     .link {
         position: relative;
         right: 3%;
-        display: flex;
-        gap: 4rem;
-        justify-content: center;
+        @include flex (row, center, nowrap, stretch, stretch, 4rem);
     }
     .links{
         transition: 0.1s;
         &:hover{
             border-bottom: 2px solid ;
-            color: black;
+            color: map-get($colors, dark);
         }
     }
 }

@@ -32,7 +32,7 @@ main{
             padding: 2rem;
             font-size: 2em;
             text-align: justify;
-            color: white;
+            color: map-get($colors, ligth);
             font-family:serif;
         }
     }
@@ -76,7 +76,7 @@ main{
             padding: 2rem;
             font-size: 1em;
             text-align: justify;
-            color: white;
+            color: map-get($colors, ligth);
             font-family:serif;
         }
     }

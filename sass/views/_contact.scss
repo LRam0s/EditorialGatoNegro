@@ -1,20 +1,12 @@
 .contact{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    gap: 4rem;
+    @include flex(column, space-around, nowrap, stretch, center, 4rem);
     .contact_form__label{
-        color: black;
+        color: map-get($colors, dark);
         font-size: 2em;
         
     }
     .contact__info{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        gap: 5rem;
+        @include flex (row, space-around, nowrap, stretch, center, 5rem);
         font-size: 2em;                                   
     
     }

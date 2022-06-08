@@ -1,11 +1,5 @@
 .collections{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-content: space-around;
-    align-items: center;
-    gap: 4rem;
+    @include flex(row, center, wrap, space-around, center, 4rem);
     &__items{
         height: 500px;
         width: 300px;
@@ -13,7 +7,7 @@
         transition: transform color 0.3s;
         &:hover{
             transform: translate(20px,20px) scale(120%);
-            color: white;
+            color: map-get($colors, ligth);
         }
     }
     
@@ -21,7 +15,7 @@
 
 @media screen and (max-width:480px){
     .main_title{
-        background-color: $secondary-color;
+        background-color: map-get($colors, secondary);
         font-size: 1.4em;
         border-radius: 10px;
      }
@@ -31,10 +25,7 @@
         margin:  auto;
     }
     .collections{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        @include flex(column, space-between, nowrap, stretch, stretch, 0 );
         &__items{
             height: auto;
             width: 100%;

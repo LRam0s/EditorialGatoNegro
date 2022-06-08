@@ -1,5 +1,5 @@
 footer{
-    background-color: $primary-color;
+    background-color: map-get($colors, primary);
     height: 50px;
     width: 99%;
     border-radius: 10px;
@@ -9,7 +9,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: whitesmoke;
+    color: map-get($colors, ligth);
     .copy{
         position: relative;
         left: 3%;

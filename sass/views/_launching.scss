@@ -7,7 +7,7 @@
 .card{
     background-image: linear-gradient(to bottom,rgba(35, 30, 23, 0.612),rgba(114, 78, 24, 0.612)  );
     font-size: 2em;
-    color: black;
+    color: map-get($colors, dark);
     display: flex;
     flex-direction: row;
     gap: 4rem;

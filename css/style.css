@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap");
+/*font*/
+/*colors*/
 * {
   margin: 0;
   padding: 0;
@@ -58,9 +60,12 @@ header {
   top: 15%; }
   header nav {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: stretch;
     align-items: center;
     gap: 2rem;
-    justify-content: space-between;
     padding: 2rem;
     position: relative;
     bottom: 10%; }
@@ -72,8 +77,12 @@ header {
     position: relative;
     right: 3%;
     display: flex;
-    gap: 4rem;
-    justify-content: center; }
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: stretch;
+    gap: 4rem; }
   header .links {
     transition: 0.1s; }
     header .links:hover {
@@ -169,7 +178,7 @@ main {
       padding: 2rem;
       font-size: 2em;
       text-align: justify;
-      color: white;
+      color: whitesmoke;
       font-family: serif; }
 
 @media screen and (max-width: 480px) {
@@ -205,14 +214,14 @@ main {
       padding: 2rem;
       font-size: 1em;
       text-align: justify;
-      color: white;
+      color: whitesmoke;
       font-family: serif; } }
 
 .collections {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   align-content: space-around;
   align-items: center;
   gap: 4rem; }
@@ -223,7 +232,7 @@ main {
     transition: transform color 0.3s; }
     .collections__items:hover {
       transform: translate(20px, 20px) scale(120%);
-      color: white; }
+      color: whitesmoke; }
 
 @media screen and (max-width: 480px) {
   .main_title {
@@ -236,9 +245,12 @@ main {
     margin: auto; }
   .collections {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    flex-wrap: nowrap; }
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: stretch;
+    gap: 0; }
     .collections__items {
       height: auto;
       width: 100%;
@@ -268,15 +280,22 @@ main {
   .card img {
     width: 100%; }
 
-.about_text {
+.about_text, .about_text--ligth {
   font-size: 2em;
   padding: 1rem; }
 
+.about_text--ligth {
+  background-color: #2b2b2b;
+  color: whitesmoke;
+  font-style: italic; }
+
 .contact {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
   gap: 4rem; }
   .contact .contact_form__label {
     color: black;
@@ -285,6 +304,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: stretch;
     align-items: center;
     gap: 5rem;
     font-size: 2em; }
