@@ -36,27 +36,37 @@ header{
     }
 }
 
+@media screen and (max-width: 720px)
+{
+    header{
+        position: inherit;
+        height: auto;
+        
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 0.8em;
+            .link{
+                flex-wrap: nowrap;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:480px){
     header {
-        max-width: 100%;
-        height: 15rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        justify-items: center;
-        position: relative;
-        flex: 1 1 auto;
-        .home{
-            font-size: 0.8em;
-            position: relative;
-            left: 0%;
-        }
-        .link{
-            position: relative;
-            bottom: 15%;
-            font-size: 0.8em;
+        position: inherit;
+        height: auto;
+        
+        nav{
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 0.8em;
+            .link{
+                flex-wrap: wrap;
+            }
         }
     }
 }

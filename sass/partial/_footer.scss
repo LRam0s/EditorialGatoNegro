@@ -3,8 +3,8 @@ footer{
     height: 50px;
     width: 99%;
     border-radius: 10px;
-    position: relative;
-    bottom: 15%;
+    position: fixed;
+    bottom: 0;
     font-size: 1.6em;
     display: flex;
     justify-content: space-between;
@@ -21,11 +21,30 @@ footer{
     }
 }
 
+@media screen and (max-width: 720px) {
+    footer{
+        height: 100px;
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .copy{
+            position: relative;
+            left: 3%;
+    }
+    .social {
+        position: relative;
+        right: 3%;
+        top: 12%;
+    }
+}
+}
+
+
 @media screen and (max-width: 480px) {
     footer{
         height: 100px;
-        position: absolute;
-        bottom: 0px;
+        position: inherit;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;

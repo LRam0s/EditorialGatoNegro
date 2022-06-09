@@ -1,22 +1,38 @@
+main{
+   min-height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 4rem;
+   padding: 4rem;
+}
+
 .main_title{
     background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.612),rgba(135, 107, 65, 0.612)  );
     height: 8rem;
-    width: 40rem;
+    max-width: 40rem;
     font-size: 2em;
     border-radius: 10px;
-    position: relative;
-    right: 8%;
-    display: grid;
-    grid-column: 6/9;
-    grid-row: 2/4;
-    align-content: center;
+    position: inherit;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 4rem;
+    padding: 4rem;
+    flex: 1 1 auto;
  }
  .main_area__box{
     background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.612),rgba(135, 107, 65, 0.612)  );
     border-radius: 1em;
-    display: grid;
-    grid-row: 4 / 12;
-    grid-column: 2/ 12;
+    height: auto;
+    max-width: auto ;
  }
 
+ @media screen and (max-width:720px){
+    main{
+       display: flex;
+       align-items: center;
+    }
+ }

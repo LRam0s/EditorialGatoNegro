@@ -5,10 +5,12 @@
     flex-direction: row;
     align-content: space-around;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
+    height: auto;
+    padding: 2rem;
     &__items{
-        height: 500px;
-        width: 300px;
+        max-height: 800px;
+        max-width: 300px;
         font-size: 1.6em;
         transition: transform color 0.3s;
         &:hover{
@@ -19,32 +21,36 @@
     
 }
 
-@media screen and (max-width:480px){
-    .main_title{
-        background-color: $secondary-color;
-        font-size: 1.4em;
-        border-radius: 10px;
-     }
-     .main_area__box{
-        width: 75%;
-        max-width: 440px;
-        margin:  auto;
-    }
+@media screen and (max-width:720px){
     .collections{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        flex-wrap: nowrap;
         &__items{
-            height: auto;
-            width: 100%;
-            font-size: 1.6em;
             display: flex;
             flex-direction: column;
             align-items: center;
-            div picture img {
-                height: auto;
-                width: 96%;
+            gap: 2rem;
+            padding: 2rem;
+            transition: none;
+            &:hover{
+                transform: none;
+                color: black;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .collections{
+        &__items{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding: 2rem;
+            transition: none;
+            &:hover{
+                transform: none;
+                color: black;
             }
         }
     }
