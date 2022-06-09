@@ -1,3 +1,5 @@
+/* LAUNCHING - Media Queries */
+
 .ubicate{
     position: inherit;
     max-width: 900px;
@@ -6,11 +8,8 @@
 .card{
     background-image: linear-gradient(to bottom,rgba(35, 30, 23, 0.612),rgba(114, 78, 24, 0.612)  );
     font-size: 2em;
-    color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 4rem;
+    color: map-get($colors, dark);
+    @include flex (row, flex-start, nowrap, stretch, center, 4rem);
     height: auto;
     width: auto;
     padding: 2rem;
@@ -31,17 +30,15 @@
 }
 
 .footer_launching{
-    background-color: $primary-color;
+    background-color: map-get($colors, primary);
     height: 50px;
     width: 99%;
     border-radius: 10px;
     position: fixed;
     bottom: 0;
     font-size: 1.6em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: whitesmoke;
+    @include flex (row, space-between, nowrap, stretch, center, normal);
+    color: map-get($colors, ligth);
     .copy{
         position: relative;
         left: 3%;
@@ -64,9 +61,7 @@
         position: inherit;
         height: auto;
         nav{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            @include flex (column, space-between, nowrap, stretch, center, 2rem);
             font-size: 0.8em;
             .link{
                 flex-wrap: wrap;
@@ -83,12 +78,10 @@
         max-height: 900px;
     }
     .card{
-        display: flex;
-        flex-direction: column;
+        @include flex (column, flex-start, nowrap, stretch, stretch, normal);
     }
     .slide{
-        display: flex;
-        align-items: center;
+        @include flex (row, flex-start, nowrap, stretch, center, normal);
         .carousel-inner{
             overflow: visible;
         }
@@ -99,10 +92,8 @@
     }
     .footer_launching{
         height: 100px;
-        display: flex;
-        flex-direction: column;
+        @include flex (column, space-evenly, nowrap, stretch, center, normal);
         position: inherit;
-        justify-content: space-evenly;
         .copy{
             position: relative;
             left: 3%;
@@ -118,9 +109,7 @@
 @media screen and (max-width: 480px){
     .footer_launching{
         height: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        @include flex (column, space-evenly, nowrap, stretch, center, normal);
         .copy{
             position: relative;
             left: 3%;

@@ -1,4 +1,13 @@
+/* ABOUT */
+
 .about_text{
     font-size: 2em;
     padding: 1rem;
+}
+
+.about_text--ligth{
+    @extend .about_text;
+    background-color: #2b2b2b;
+    color: map-get($colors, ligth) ;
+    font-style: italic;
 }

@@ -1,11 +1,7 @@
+/* COLLECTIONS - Media Queries */
+
 .collections{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-content: space-around;
-    align-items: center;
-    gap: 2rem;
+    @include flex(row, center, wrap, space-around, center, 2rem);
     height: auto;
     padding: 2rem;
     &__items{
@@ -15,7 +11,7 @@
         transition: transform color 0.3s;
         &:hover{
             transform: translate(20px,20px) scale(120%);
-            color: white;
+            color: map-get($colors, ligth);
         }
     }
     
@@ -24,10 +20,7 @@
 @media screen and (max-width:720px){
     .collections{
         &__items{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2rem;
+            @include flex(column, flex-start, wrap, stretch, center, 2rem);
             padding: 2rem;
             transition: none;
             &:hover{
@@ -42,10 +35,7 @@
 @media screen and (max-width:480px){
     .collections{
         &__items{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2rem;
+            @include flex(column, flex-start, wrap, stretch, center, 2rem);
             padding: 2rem;
             transition: none;
             &:hover{
