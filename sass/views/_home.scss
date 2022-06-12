@@ -32,12 +32,23 @@
         left: 10%;
         @include flex (row, center, nowrap, stretch, stretch, 4rem);
         &__text{
-            display: inline-block;
+            display: flex;
             padding: 2rem;
             font-size: 2em;
             text-align: justify;
+            align-items: center;
             color: map-get($colors, ligth);
             font-family:serif;
+            .home__text{
+                text-decoration-line: underline;
+                font-size: 25px;
+                font-style: italic;
+            }
+            .home__text--end{
+                @extend .home__text;
+                text-decoration-line: none;
+                font-size: 23px;
+            }
         }
     }
 

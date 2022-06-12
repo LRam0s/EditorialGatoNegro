@@ -1,17 +1,29 @@
 /* COLLECTIONS - Media Queries */
 
 .collections{
-    @include flex(row, center, wrap, space-around, center, 2rem);
+    @include flex(row, center, wrap, space-around, center, 0rem);
+    row-gap: 5em;
     height: auto;
     padding: 2rem;
     &__items{
+        @include flex(column, flex-start, nowrap, stretch, center, 2rem);
         max-height: 800px;
-        max-width: 300px;
+        max-width: 400px;
         font-size: 1.6em;
-        transition: transform color 0.3s;
+        transition-duration: 0.3s;        
+        .items__title{
+            text-decoration-line: underline;
+            font-size: 25px;
+        }
         &:hover{
-            transform: translate(20px,20px) scale(120%);
+            transform: translate(20px 20px) scale(105%);
             color: map-get($colors, ligth);
+            .items__text{
+                display: block;
+            }
+        }
+        .items__text{
+            display: none;
         }
     }
     
@@ -38,9 +50,19 @@
             @include flex(column, flex-start, wrap, stretch, center, 2rem);
             padding: 2rem;
             transition: none;
+            img{
+                height: 214px;
+
+            }
+            .items__title{
+                font-size: 20px;
+            }
             &:hover{
                 transform: none;
                 color: black;
+                .items__text{
+                    font-size: 1em;
+                }
             }
         }
     }

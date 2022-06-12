@@ -1,13 +1,75 @@
 /* ABOUT */
 
-.about_text{
-    font-size: 2em;
-    padding: 1rem;
+.about_area{
+    @include flex(column, flex-start, wrap, stretch, center, 0);
+    .about_content{
+        @include flex(row, flex-start, nowrap, stretch, center, 2rem);
+        padding: 4rem;
+        width: 96%;
+        img{
+            width: 100%;
+            height: auto;
+            max-width: 352px;
+            max-height: 562px;
+        }
+        .about_text{
+            font-size: 2em;
+            padding: 1rem;
+        }
+    }
+    .about_content--reverse{
+        @extend .about_content;
+        @include flex(row-reverse, flex-start, nowrap, stretch, center, 2rem);
+        width: 96%;
+        img{
+            max-width: 501px;
+            max-height: 351px;
+        }
+    }
 }
 
-.about_text--ligth{
-    @extend .about_text;
-    background-color: #2b2b2b;
-    color: map-get($colors, ligth) ;
-    font-style: italic;
+@media screen and (max-width: 1040px) {
+    .about_area{
+        .about_content{
+            @include flex(row, center, wrap, stretch, center, 2rem);
+            padding: 4rem;
+            width: 96%;
+            .about_text{
+                font-size: 1.5em
+            }
+        }
+        .about_content--reverse{
+            @include flex(row-reverse, center, wrap, stretch, center, 2rem);
+            padding: 4rem;
+            width: 96%;
+            .about_text{
+                font-size: 1.5em
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 630px) {
+    .about_area{
+        .about_content{
+            @include flex(row, center, wrap, stretch, center, 2rem);
+            padding: 4rem;
+            width: 96%;
+            img{
+                min-width: 230px;
+                min-height: 380px;
+            }
+        }
+        .about_content--reverse{
+            @include flex(row-reverse, center, wrap, stretch, center, 2rem);
+            padding: 4rem;
+            width: 96%;
+            img{
+                min-width: 230px;
+                min-height: 160px;
+            }
+        }
+    }
+
+    
 }

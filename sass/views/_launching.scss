@@ -16,6 +16,17 @@
     img{
         width: 50%;
     }
+    p{
+        .launching__title{
+            text-decoration-line: underline;
+            font-size: 25px;
+        }
+        .launching__date{
+            font-style: italic;
+            font-weight: bold;
+            
+        }
+    }
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
     color: black;
@@ -24,8 +35,8 @@
 .slide{
     height: 100%;
     img{
-        max-height: 300px;
-        max-width: 200px
+        max-height: 390px;
+        max-width: 300px
     };
 }
 

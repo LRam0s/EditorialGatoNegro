@@ -22,7 +22,11 @@ main{
     background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.612),rgba(135, 107, 65, 0.612)  );
     border-radius: 1em;
     height: auto;
-    max-width: auto ;
+ }
+ .main_area__box--about{
+   background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.812),rgba(135, 107, 65, 0.812)  );border-radius: 1em;
+   height: auto;
+   max-width: 1220px;
  }
 
  @media screen and (max-width:720px){
