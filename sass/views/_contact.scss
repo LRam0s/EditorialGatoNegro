@@ -1,15 +1,19 @@
 /* CONTACT - Media Queries */
 
 .contact{
-    @include flex(column, space-around, nowrap, stretch, center, 4rem);
+    @include flex(column, space-around, nowrap, stretch, center, 5rem);
     padding: 4rem;
-    .contact_form_fieldset{
+    .contact_form__fieldset{
         width: auto;
         height: auto;
+        display: flex;
+        flex-direction: column;
+
     }
     .contact_form__label{
         color: map-get($colors, dark);
         font-size: 2em;
+        
         
     }
     .contact__info{
@@ -30,6 +34,10 @@
         }                   
     }
 }
+button, input, optgroup, select, textarea{
+    font-size: 1.3em;
+}
+
 
 @media screen and (max-width: 720px) {
     fieldset{

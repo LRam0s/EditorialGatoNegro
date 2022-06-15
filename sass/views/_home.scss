@@ -59,18 +59,18 @@
         width: 99%;
         border-radius: 10px;
         position: fixed;
-        bottom: 0px;
+        bottom: 8px;
         font-size: 1.6em;
         @include flex (row, space-between, nowrap, stretch, center, auto);
         color: map-get($colors, ligth);
         .copy{
             position: relative;
             left: 3%;
+            top: 10%;
         }
         .social {
             position: relative;
             right: 3%;
-            top: 12%;
         }
     }
 
@@ -105,7 +105,6 @@
         .social {
             position: relative;
             right: 3%;
-            top: 12%;
         }
     }
     
@@ -145,7 +144,6 @@
     .social {
         position: relative;
         right: 3%;
-        top: 12%;
     }
 }
 }
@@ -154,7 +152,7 @@
     main{
         @include flex (column, flex-start, nowrap, stretch, center, 4rem);
         flex: 1 1 auto;
-        padding: 4rem;
+        padding: 3rem;
         height: auto;
         .logo{
             position: inherit;
@@ -178,7 +176,7 @@
     .footer_home{
         height: 100px;
         position: inherit;
-        bottom: 0;
+        bottom: 8px;
         @include flex (column, space-evenly, nowrap, stretch, center, normal);
         .copy{
             position: relative;
@@ -187,7 +185,6 @@
     .social {
         position: relative;
         right: 3%;
-        top: 12%;
     }
 }
  }

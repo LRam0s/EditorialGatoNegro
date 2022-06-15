@@ -3,7 +3,6 @@
 .ubicate{
     position: inherit;
     max-width: 900px;
-    
 }
 .card{
     background-image: linear-gradient(to bottom,rgba(35, 30, 23, 0.612),rgba(114, 78, 24, 0.612)  );
@@ -46,18 +45,18 @@
     width: 99%;
     border-radius: 10px;
     position: fixed;
-    bottom: 0;
+    bottom: 8px;
     font-size: 1.6em;
     @include flex (row, space-between, nowrap, stretch, center, normal);
     color: map-get($colors, ligth);
     .copy{
         position: relative;
         left: 3%;
+        top: 10%;
     }
     .social {
         position: relative;
         right: 3%;
-        top: 12%;
     }
 }
 
@@ -78,7 +77,6 @@
                 flex-wrap: wrap;
             }
         }
-        
     }
     
 }
@@ -112,7 +110,6 @@
     .social {
         position: relative;
         right: 3%;
-        top: 12%;
     }
 }
 }
@@ -128,7 +125,6 @@
     .social {
         position: relative;
         right: 3%;
-        top: 12%;
     }
 }
  }

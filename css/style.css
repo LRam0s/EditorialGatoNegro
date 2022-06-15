@@ -30,7 +30,8 @@ body {
   grid-template-rows: auto 1fr auto;
   height: auto;
   justify-items: center;
-  gap: 4rem; }
+  gap: 4rem;
+  line-height: normal; }
 
 @media screen and (max-width: 720px) {
   body {
@@ -138,14 +139,24 @@ header {
     flex-wrap: nowrap;
     align-content: stretch;
     align-items: stretch;
-    gap: 4rem; }
+    gap: 0; }
   header .links {
     transition: 0.1s; }
     header .links:hover {
       border-bottom: 2px solid;
       color: black; }
+  header .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  header .navbar {
+    top: 15%; }
+  header .navbar > .container-fluid {
+    align-items: flex-start;
+    padding-bottom: 2rem; }
+    header .navbar > .container-fluid .link_home {
+      position: relative;
+      left: 3%; }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 990px) {
   header {
     position: inherit;
     height: auto; }
@@ -160,6 +171,10 @@ header {
       font-size: 0.8em; }
       header nav .link {
         flex-wrap: nowrap; } }
+
+@media screen and (max-width: 720px) {
+  header .navbar > .container-fluid {
+    padding-bottom: 0; } }
 
 @media screen and (max-width: 480px) {
   header {
@@ -184,7 +199,7 @@ footer {
   width: 99%;
   border-radius: 10px;
   position: fixed;
-  bottom: 0;
+  bottom: 8px;
   font-size: 1.6em;
   display: flex;
   flex-direction: row;
@@ -196,11 +211,11 @@ footer {
   color: whitesmoke; }
   footer .copy {
     position: relative;
-    left: 3%; }
+    left: 3%;
+    top: 10%; }
   footer .social {
     position: relative;
-    right: 3%;
-    top: 12%; }
+    right: 3%; }
 
 @media screen and (max-width: 720px) {
   footer {
@@ -218,8 +233,7 @@ footer {
       left: 3%; }
     footer .social {
       position: relative;
-      right: 3%;
-      top: 12%; } }
+      right: 3%; } }
 
 @media screen and (max-width: 480px) {
   footer {
@@ -237,8 +251,7 @@ footer {
       left: 3%; }
     footer .social {
       position: relative;
-      right: 3%;
-      top: 12%; } }
+      right: 3%; } }
 
 /* HOME - Media Queries */
 .main_home {
@@ -298,7 +311,7 @@ footer {
   width: 99%;
   border-radius: 10px;
   position: fixed;
-  bottom: 0px;
+  bottom: 8px;
   font-size: 1.6em;
   display: flex;
   flex-direction: row;
@@ -310,11 +323,11 @@ footer {
   color: whitesmoke; }
   .footer_home .copy {
     position: relative;
-    left: 3%; }
+    left: 3%;
+    top: 10%; }
   .footer_home .social {
     position: relative;
-    right: 3%;
-    top: 12%; }
+    right: 3%; }
 
 @media screen and (max-width: 1140px) {
   .main_home {
@@ -359,8 +372,7 @@ footer {
       left: 3%; }
     .footer_home .social {
       position: relative;
-      right: 3%;
-      top: 12%; } }
+      right: 3%; } }
 
 @media screen and (max-width: 720px) {
   main {
@@ -407,8 +419,7 @@ footer {
       left: 3%; }
     .footer_home .social {
       position: relative;
-      right: 3%;
-      top: 12%; } }
+      right: 3%; } }
 
 @media screen and (max-width: 480px) {
   main {
@@ -420,7 +431,7 @@ footer {
     align-items: center;
     gap: 4rem;
     flex: 1 1 auto;
-    padding: 4rem;
+    padding: 3rem;
     height: auto; }
     main .logo {
       position: inherit;
@@ -445,7 +456,7 @@ footer {
   .footer_home {
     height: 100px;
     position: inherit;
-    bottom: 0;
+    bottom: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -458,8 +469,7 @@ footer {
       left: 3%; }
     .footer_home .social {
       position: relative;
-      right: 3%;
-      top: 12%; } }
+      right: 3%; } }
 
 /* COLLECTIONS - Media Queries */
 .collections {
@@ -576,7 +586,7 @@ footer {
   width: 99%;
   border-radius: 10px;
   position: fixed;
-  bottom: 0;
+  bottom: 8px;
   font-size: 1.6em;
   display: flex;
   flex-direction: row;
@@ -588,11 +598,11 @@ footer {
   color: whitesmoke; }
   .footer_launching .copy {
     position: relative;
-    left: 3%; }
+    left: 3%;
+    top: 10%; }
   .footer_launching .social {
     position: relative;
-    right: 3%;
-    top: 12%; }
+    right: 3%; }
 
 @media (min-width: 1200px) {
   .h1, h1 {
@@ -654,8 +664,7 @@ footer {
       left: 3%; }
     .footer_launching .social {
       position: relative;
-      right: 3%;
-      top: 12%; } }
+      right: 3%; } }
 
 @media screen and (max-width: 480px) {
   .footer_launching {
@@ -672,8 +681,7 @@ footer {
       left: 3%; }
     .footer_launching .social {
       position: relative;
-      right: 3%;
-      top: 12%; } }
+      right: 3%; } }
 
 /* ABOUT */
 .about_area {
@@ -777,11 +785,13 @@ footer {
   flex-wrap: nowrap;
   align-content: stretch;
   align-items: center;
-  gap: 4rem;
+  gap: 5rem;
   padding: 4rem; }
-  .contact .contact_form_fieldset {
+  .contact .contact_form__fieldset {
     width: auto;
-    height: auto; }
+    height: auto;
+    display: flex;
+    flex-direction: column; }
   .contact .contact_form__label {
     color: black;
     font-size: 2em; }
@@ -805,6 +815,9 @@ footer {
         top: 0;
         height: 100%;
         width: 100%; }
+
+button, input, optgroup, select, textarea {
+  font-size: 1.3em; }
 
 @media screen and (max-width: 720px) {
   fieldset {
