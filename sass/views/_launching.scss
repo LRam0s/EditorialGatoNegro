@@ -87,7 +87,7 @@
         max-height: 900px;
     }
     .card{
-        @include flex (column, flex-start, nowrap, stretch, stretch, normal);
+        @include flex (column, flex-start, nowrap, stretch, center, normal);
     }
     .slide{
         @include flex (row, flex-start, nowrap, stretch, center, normal);

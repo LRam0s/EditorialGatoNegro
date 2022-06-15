@@ -634,7 +634,7 @@ footer {
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-content: stretch;
-    align-items: stretch;
+    align-items: center;
     gap: normal; }
   .slide {
     display: flex;
