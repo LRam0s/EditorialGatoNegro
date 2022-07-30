@@ -46,6 +46,11 @@
                                 <li>
                                     <a href="./contact.html"class="links"> Contacto </a>
                                 </li>
+                                <li>
+                                    <a class="links" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                        Carrito
+                                      </a>                                      
+                                </li>
                             </ul>
                         </div>
                     </article>
@@ -55,6 +60,19 @@
     </header>
     <!-- MAIN -->
     <main>
+        <!-- Carrito de compra desplegado -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Carrito de compras</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Acá va a estar el carrito de compras y sus productos
+              </div>
+            </div>
+          </div>
+          <!-- Fin carrito -->
         <section class="main_title">
             <p>
                 <h1>
@@ -65,6 +83,7 @@
         <section class="main_area__box">
             <article class="collections">
                 <div class="collections__items">
+                    <a class = "collections__link" href="./collections/collections_sh.html">
                         <img src="../img/sherlock_holmes.png" alt="Colección de Sherlock Holmes" >
                     <p>
                         <span class="items__title">Sherlock Holmes </span> <br>
@@ -74,8 +93,10 @@
                             Disfrute de las 4 novelas y los 56 relatos cortos que dieron vida a esta dupla tan particular.
                         </span> 
                     </p>
+                    </a>
                 </div>
                 <div class="collections__items">
+                    <a class = "collections__link" href="./collections/collections_esdla.html">
                         <img src="../img/esdla.png" alt="Colección de El señor de los anillos" >
                     <p>
                         <span class="items__title">El señor de los anillos </span> <br>
@@ -85,8 +106,10 @@
                              de personajes que brindan la profundidad necesaria a la historia para que se convierta en una historia épica.
                         </span> 
                     </p>
+                    </a>
                 </div>
                 <div class="collections__items"> 
+                    <a class = "collections__link" href="./collections/collections_wit.html">  
                         <img src="../img/witcher.png" alt="Colección de The Witcher">
                     <p>
                         <span class="items__title">The Witcher </span> <br>
@@ -96,8 +119,10 @@
                             pero las posibilidades de sortearlos con éxito son mayores si cuentas con los escuderos o aliados correctos.
                         </span> 
                     </p>
+                    </a>
                 </div>
                 <div class="collections__items">
+                    <a class = "collections__link" href="./collections/collections_poe.html">
                         <img src="../img/poe.png" alt="Colección de Edgard Allan Poe" >
                     <p>
                         <span class="items__title">Edgard Allan Poe </span> <br>
@@ -107,53 +132,62 @@
                             una perfección nunca alcanzada y quizá jamás alcanzable de nuevo.
                         </span>   
                     </p>
+                    </a>
                 </div>
             </article>
             <article class="collections">
                 <div class="collections__items">
-                    <img src="../img/narnia.png" alt="Colección de Las Crónicas de Narnia" >
-                    <p>
-                        <span class="items__title">Las Crónicas de Narnia </span> <br>
-                        <span class="items__text">
-                            La serie se desarrolla en el reino ficticio de Narnia, un mundo fantástico de magia, bestias míticas y animales que hablan. 
-                            Narra las aventuras de varios niños que juegan un papel protagónico en la historia del mundo narniano. En la mayoria de las historias los protagonistas son todos 
-                            niños del mundo real transportados mágicamente a Narnia, donde el león Aslan los llama para proteger a Narnia del mal.
-                        </span> 
-                    </p>
+                    <a class = "collections__link" href="./collections/collections_nar.html">
+                        <img src="../img/narnia.png" alt="Colección de Las Crónicas de Narnia" >
+                        <p>
+                            <span class="items__title">Las Crónicas de Narnia </span> <br>
+                            <span class="items__text">
+                                La serie se desarrolla en el reino ficticio de Narnia, un mundo fantástico de magia, bestias míticas y animales que hablan. 
+                                Narra las aventuras de varios niños que juegan un papel protagónico en la historia del mundo narniano. En la mayoria de las historias los protagonistas son todos 
+                                niños del mundo real transportados mágicamente a Narnia, donde el león Aslan los llama para proteger a Narnia del mal.
+                            </span> 
+                        </p>
+                    </a>
                 </div>
                 <div class="collections__items">
-                    <img src="../img/lupin.png" alt="Colección de Arsene Lupin" >
-                    <p>
-                        <span class="items__title">Arsene Lupin </span> <br>
-                        <span class="items__text">
-                            El ladrón y caballero Arsène Lupin, es todo lo que esperarías de un aristócrata francés: ingenioso, encantador, brillante, astuto … y posiblemente el ladrón más grande del mundo.
-                            Los pobres y los inocentes no tienen nada de qué preocuparse y frecuentemente se benefician de su generosidad espontánea. Los ricos y poderosos, y el detective que intenta arruinar 
-                            su diversión, sin embargo, deben tener cuidado: son el objetivo de las travesuras y farsas de Lupin.
-                        </span> 
-                    </p>
+                    <a class = "collections__link" href="./collections/collections_lup.html">
+                        <img src="../img/lupin.png" alt="Colección de Arsene Lupin" >
+                        <p>
+                            <span class="items__title">Arsene Lupin </span> <br>
+                            <span class="items__text">
+                                El ladrón y caballero Arsène Lupin, es todo lo que esperarías de un aristócrata francés: ingenioso, encantador, brillante, astuto … y posiblemente el ladrón más grande del mundo.
+                                Los pobres y los inocentes no tienen nada de qué preocuparse y frecuentemente se benefician de su generosidad espontánea. Los ricos y poderosos, y el detective que intenta arruinar 
+                                su diversión, sin embargo, deben tener cuidado: son el objetivo de las travesuras y farsas de Lupin.
+                            </span> 
+                        </p>
+                    </a>
                 </div>
                 <div class="collections__items"> 
-                    <img src="../img/independiente.png" alt="Colección de Autores Independientes">
-                    <p>
-                        <span class="items__title"> Autores Independientes </span> <br>
-                        <span class="items__text">
-                            En esta colección se aglutinan lo libros escritos por aquellos sujetos que se sitúan en los márgenes de la industria editorial, muchas veces obligados a fundar una mini-empresa para administrar el negocio, 
-                            no por voluntad propia, sino por pura necesidad. Para ayudarlos en su difusión y venta de ejemplares se ofrece este servicio excepcional.
-                            Aventurese a encontrar ese libro que tanto soñó y que no sabía que existía.
-                        </span> 
-                    </p>
+                    <a class = "collections__link" href="./collections/collections_aut.html"> 
+                        <img src="../img/independiente.png" alt="Colección de Autores Independientes">
+                        <p>
+                            <span class="items__title"> Autores Independientes </span> <br>
+                            <span class="items__text">
+                                En esta colección se aglutinan lo libros escritos por aquellos sujetos que se sitúan en los márgenes de la industria editorial, muchas veces obligados a fundar una mini-empresa para administrar el negocio, 
+                                no por voluntad propia, sino por pura necesidad. Para ayudarlos en su difusión y venta de ejemplares se ofrece este servicio excepcional.
+                                Aventurese a encontrar ese libro que tanto soñó y que no sabía que existía.
+                            </span> 
+                        </p>
+                    </a>
                 </div>
                 <div class="collections__items">
-                    <img src="../img/lovecraft.png" alt="Colección de H.P. Lovecraft" >
-                    <p>
-                        <span class="items__title">H.P. Lovecraft</span> <br>
-                        <span class="items__text">
-                            Maestro indiscutible de la literatura fantástica, su obra rebasa en realidad la confluencia de géneros como la literatura de terror 
-                            y la ciencia ficción hasta cristalizar en una narrativa única que recrea una mitología terrorífica de seres de un inframundo paralelo.
-                            Una puerta de entrada para el descubrimiento de un género que fascina a miles de lectores en el mundo.
-                        </span> 
-                        
-                    </p>
+                    <a class = "collections__link" href="./collections/collections_lov.html">
+                        <img src="../img/lovecraft.png" alt="Colección de H.P. Lovecraft" >
+                        <p>
+                            <span class="items__title">H.P. Lovecraft</span> <br>
+                            <span class="items__text">
+                                Maestro indiscutible de la literatura fantástica, su obra rebasa en realidad la confluencia de géneros como la literatura de terror 
+                                y la ciencia ficción hasta cristalizar en una narrativa única que recrea una mitología terrorífica de seres de un inframundo paralelo.
+                                Una puerta de entrada para el descubrimiento de un género que fascina a miles de lectores en el mundo.
+                            </span> 
+                            
+                        </p>
+                    </a>
                 </div>
             </article>
         </section>
