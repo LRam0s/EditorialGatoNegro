@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/imageonline-co-transparentimage (4).png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../img/imageonline-co-transparentimage (4).png" type="image/x-icon">
     <title>Editorial Gato Negro | Colecciones</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/style.css">
     <meta name = "viewport" content="width=device-width, initial-scale=1">
@@ -67,7 +68,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <div>
+              <div id="carrito">
                 Acá va a estar el carrito de compras y sus productos
               </div>
             </div>
@@ -83,11 +84,11 @@
                 </h2>
             </p>
         </section>
-        <section class="main_area__box">
-            <article class="collections" id="sherlock">
-                <!-- <div class="collections__items">
-                </div> -->
+        <section  class="main_area__box">
+            <article id="sherlock" onload="arranquePagina()" class="collections" >
+                
             </article>
+            
         </section>
     </main>    
         <!-- FOOTER -->
@@ -104,6 +105,7 @@
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="../../main.js"></script>
 </body>
 </html>

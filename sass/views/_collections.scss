@@ -48,13 +48,19 @@
       font-size: 1.5rem;
       color: black;
     }
-    .button {
-      color: black;
-      background-color: map-get($colors, primary);
-      padding: 5px;
-      border: none;
+
+    .subcollections_img {
+      max-height: 400px;
+      max-width: 200px;
     }
   }
+}
+
+.button {
+  color: black;
+  background-color: map-get($colors, primary);
+  padding: 5px;
+  border: none;
 }
 
 @media screen and (max-width: 720px) {

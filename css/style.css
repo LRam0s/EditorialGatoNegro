@@ -534,11 +534,15 @@ footer {
     .collections .subcollections_container .subcolecctions_text {
       font-size: 1.5rem;
       color: black; }
-    .collections .subcollections_container .button {
-      color: black;
-      background-color: #ad8b2d;
-      padding: 5px;
-      border: none; }
+    .collections .subcollections_container .subcollections_img {
+      max-height: 400px;
+      max-width: 200px; }
+
+.button {
+  color: black;
+  background-color: #ad8b2d;
+  padding: 5px;
+  border: none; }
 
 @media screen and (max-width: 720px) {
   .collections__items {
