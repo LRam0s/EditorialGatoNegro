@@ -496,6 +496,13 @@ footer {
     font-size: 1.6em;
     transition-duration: 0.3s; }
     .collections__items .collections__link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      align-items: center;
+      gap: 2rem;
       color: black; }
       .collections__items .collections__link:hover {
         color: whitesmoke; }
@@ -518,7 +525,9 @@ footer {
     align-items: center;
     gap: 0rem;
     gap: 2rem;
-    padding: 2rem; }
+    padding: 2rem;
+    max-height: 800px;
+    max-width: 400px; }
     .collections .subcollections_container .subcollections_items {
       display: flex;
       flex-direction: column;
@@ -526,7 +535,9 @@ footer {
       flex-wrap: wrap;
       align-content: space-around;
       align-items: center;
-      gap: 0rem; }
+      gap: 0rem;
+      max-height: 800px;
+      max-width: 400px; }
     .collections .subcollections_container .subcollections_title {
       font-size: 2rem;
       color: black;

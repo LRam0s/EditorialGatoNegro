@@ -12,6 +12,7 @@
     font-size: 1.6em;
     transition-duration: 0.3s;
     .collections__link {
+      @include flex(column, center, nowrap, stretch, center, 2rem);
       color: black;
       &:hover {
         color: map-get($colors, ligth);
@@ -36,8 +37,12 @@
     @include flex(row, center, wrap, space-around, center, 0rem);
     gap: 2rem;
     padding: 2rem;
+    max-height: 800px;
+    max-width: 400px;
     .subcollections_items {
       @include flex(column, center, wrap, space-around, center, 0rem);
+      max-height: 800px;
+      max-width: 400px;
     }
     .subcollections_title {
       font-size: 2rem;
