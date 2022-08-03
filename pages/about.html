@@ -62,13 +62,16 @@
     <main>
         <!-- Carrito de compra desplegado -->
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Carrito de compras</h5>
+            <div class="offcanvas-header d-flex justify-content-center">
+              <h5 class="offcanvas-title fs-2" id="offcanvasExampleLabel">Carrito de compras</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <div>
-                Acá va a estar el carrito de compras y sus productos
+              <div id="carrito" class="d-flex flex-column align-items-center p-4 fs-4">
+                El carrito de compras se encuentra vacío. <br>
+                <span class=" text-decoration-underline fw-semibold p-4">
+                    <a class="text-dark" href="../collections.html">Continuar comprando</a>
+                </span>
               </div>
             </div>
           </div>
@@ -110,5 +113,6 @@
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="../main.js"></script>
 </body>
 </html>

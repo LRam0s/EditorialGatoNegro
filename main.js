@@ -140,6 +140,15 @@ const witcherArray = [
   witcher8,
 ];
 
+let aux = localStorage.getItem("productosEnCarro");
+let productosEnCarro;
+if (!aux) {
+  productosEnCarro = [];
+} else {
+  productosEnCarro = JSON.parse(aux);
+  cartRender();
+}
+
 /* Funciones con toastify*/
 function agregarCarrito(producto) {
   Toastify({
@@ -147,7 +156,7 @@ function agregarCarrito(producto) {
     duration: 3000,
     newWindow: true,
     close: true,
-    gravity: "top",
+    gravity: "bottom",
     position: "right",
     stopOnFocus: true,
     style: {
@@ -155,8 +164,15 @@ function agregarCarrito(producto) {
       fontSize: "20px",
     },
   }).showToast();
-  /* productosEnCarro.push(producto);
-  alert(productosEnCarro); */
+  productosEnCarro.push(producto);
+  localStorage.setItem("productosEnCarro", JSON.stringify(productosEnCarro));
+  cartRender();
+}
+
+function borrarCarro(id) {
+  productosEnCarro.splice(id, 1);
+  localStorage.setItem("productosEnCarro", JSON.stringify(productosEnCarro));
+  cartRender();
 }
 
 function listRender(collectionArray, idHtml) {
@@ -174,12 +190,32 @@ function listRender(collectionArray, idHtml) {
     El precio es $${collectionArray[i].precio}
     </span>
     </p> 
-    <input onclick = "agregarCarrito()"  class = "button" type="button" value="Agregar al carrito" ></input>
+    <input onclick = "agregarCarrito({titulo: '${collectionArray[i].titulo}', precio: ${collectionArray[i].precio}})"  class = "button" type="button" value="Agregar al carrito" ></input>
     </div>
     </article>
     `;
   }
   document.getElementById(idHtml).innerHTML = aux;
+}
+
+function cartRender() {
+  let aux = "";
+  for (let i = 0; i < productosEnCarro.length; i++) {
+    aux =
+      aux +
+      `
+    <article class = "border  2px solid">
+    <div class = "d-flex justify-content-between align-items-center p-3 w-345 h-45">
+    <p class ="mb-0">  ${productosEnCarro[i].titulo}  </p> <br>
+    <p class="mb-0">
+    $${productosEnCarro[i].precio} <br>
+    </p>
+    <p onclick = "borrarCarro(${i}) "role="button">🗑️</p>
+    </div> 
+    </article>
+    `;
+  }
+  document.getElementById("carrito").innerHTML = aux;
 }
 
 /* Entrega operadores avanzados */
@@ -188,10 +224,8 @@ document.getElementById("sherlock") && listRender(sherlockArray, "sherlock");
 document.getElementById("esdla") && listRender(esdlaArray, "esdla");
 document.getElementById("witcher") && listRender(witcherArray, "witcher");
 
-const productosEnCarro =
-  JSON.parse(localStorage.getItem("productosEnCarro")) || [];
-
-/* {Titulo: ${collectionArray[i].titulo}, Precio: $${collectionArray[i].precio}} */
+/* {Titulo: ${collectionArray[i].titulo}, Precio: $${collectionArray[i].precio}} 
+<input onclick = "agregarCarrito({titulo: '${productosEnCarro[i].titulo}', precio: ${productosEnCarro[i].precio}})"  class = "button" type="button" value="Agregar al carrito" ></input>*/
 
 /* Sweet alert */
 function launchingAlert() {
