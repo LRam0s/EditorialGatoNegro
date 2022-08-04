@@ -33,3 +33,4 @@ Contact: title = Editorial Gato Negro | Contacto
 keywords = LIBROS, EDITORIAL, GATO NEGRO, COMPRAR LIBROS, NUEVOS, CONTACTO, CONTACTARNOS, OPORTUNIDAD, COMUNICACION, ATENCION AL PUBLICO
 description = Gato Negro es una editorial que se caracteriza por mantener un lazo estrecho con su comunidad. Podrás comunicarte con nosotros por este medio, tanto para presentar tu libro en nuestra editorial para que
 lo revisemos, como para resolver dudas que tengas sobre nuestro trabajo y los servicios que brindamos. También podras hacer los reclamos correspondientes ante alguna falla de nuestros productos.
+.
