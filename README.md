@@ -1,7 +1,6 @@
 //Comentarios para entrega//
-Se agregan operadores logicos and y or en la seccion de operadores avanzados del main.js.
-Se agregan librerias de toastify y sweet alert al momento de agregar productos al carro en la pagina colecciones/sherlock holmes, el señor de los anillos y the witcher; cuando se hace click en reservar un libro de la seccion de lanzamientos,
-por medio de un sweet alert se solicita el mail, si coloca el mail y presiona confirmar le de un mensaje de confirmación, y si presiona rechazar indique otro mensaje.
+Se agregan los archivos JSON de cada lista de productos.
+Se agrega Fetch tomando los archivos JSON locales para realizar el render de las listas de productos.
 /////////////
 
 Bienvenidos al sitio web de Editorial Gato Negro.
