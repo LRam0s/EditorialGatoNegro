@@ -1,6 +1,6 @@
 [
   {
-    "imagen": "../../img/sherlock/escarlata.gif",
+    "imagen": "../../img/sherlock/escarlata.jpg",
     "titulo": "Estudio en escarlata - El signo de los cuatro",
     "sipnosis": "Estudio en escarlata es el arranque para nuestra inmortal dupla. El primero es vanidoso como un niño con una monstruosa especialización; si no tiene un caso interesante se muere de tedio. Watson, al contrario, busca para sí una porción de felicidad.",
     "precio": 2000
@@ -24,13 +24,13 @@
     "precio": 1500
   },
   {
-    "imagen": "../../img/sherlock/valle.gif",
+    "imagen": "../../img/sherlock/valle.jpg",
     "titulo": "El valle del terror - Recuerdos de Sherlock Holmes",
     "sipnosis": "Malvados, muchos y sarcásticos, que hasta ahora no habíamos tenido en un caso de Holmes. Al parecer esta gente considera que matar sin divertirse no tiene gracia. Son capaces de quedarse miles de minutos escuchando a sus victimas pidiendoles piedad.",
     "precio": 1500
   },
   {
-    "imagen": "../../img/sherlock/archivo.webp",
+    "imagen": "../../img/sherlock/archivo.jpg",
     "titulo": "El archivo de Sherlock Holmes",
     "sipnosis": "Holmes aquí brilla más que nunca con sus mordaces maldades para con Watson. Es, en realidad, su víctima predilecta. Pero cuando, en cierta aventura, cree que su amigo está en peligro mortal, sale a la luz todo su cariño por él. Este libro, por ser el último, es uno de los más ricos y chispeantes.",
     "precio": 1500
