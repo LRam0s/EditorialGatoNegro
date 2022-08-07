@@ -1,0 +1,50 @@
+[
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen I",
+    "sipnosis": "Sumérjase en las palabras y las imágenes del maestro de la poesía estadounidense, Edgar Allan Poe. Con obras de arte contemporáneas, ilustraciones y diseños de página de época, esta colección bellamente restaurada contiene todo lo necesario para los fanáticos de Poe, principiantes, expertos y estudiantes por igual.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen II",
+    "sipnosis": "Continúe con su colección de diez volúmenes de Obras completas de Edgar Allan Poe con este libro de cuentos que incluye MS. Encontrado en una botella, Sombra: una parábola, Narrativa de A. Gordon Pym, Cuatro bestias en una y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen III",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 3, contienen nueve cuentos, incluida la Narrativa de A. Gordon Pym (continuación del Volumen 2), Ligeia, Cómo escribir un artículo de Blackwood, Un predicamento, Silencio: una fábula, El diablo en el Campanario, y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen IV",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 4, presenta quince cuentos ilustrados de lo macabro del maestro estadounidense original del horror y la intriga. Algunos de los cuentos contenidos; Mistificación , El hombre de negocios , Nunca le apuestes al diablo tu cabeza , Eleonora , La máscara de la muerte roja , y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen V",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 5, presenta doce cuentos macabros ilustrados del maestro estadounidense original del horror y la intriga. Algunos de los cuentos contenidos; El misterio de Marie Rogêt , El pozo y el péndulo , El corazón delator , El gato negro , El entierro prematuro , y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen VI",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 6, presenta dieciocho cuentos ilustrados del maestro estadounidense original del terror y la intriga. Algunos de los cuentos contenidos; Algunas palabras con una momia , El ángel de lo extraño , El poder de las palabras , El diablillo de lo perverso , El barril de amontillado , La cabaña de Landor , y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen VII",
+    "sipnosis": "El Volumen 7 de las Obras completas de Edgar Allan Poe se titula 'Críticas' y contiene el punto de vista de Poe sobre escritores como Charles Dickens, Robert M. Bird, George P. Morris, Frederick Marryat, Henry Cockton, Longfellow, Rufus Dawes y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/Libro.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen VIII",
+    "sipnosis": "El volumen 8 de las Obras completas de Edgar Allan Poe se titula CRÍTICAS y contiene el punto de vista de Poe sobre escritores como Henry Cary, J. Fenimore Cooper, R.H. Horne, Amelia Welby, William W. Lord, Elizabeth Oakes Smith y más.",
+    "precio": 1800
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "imagen": "../../img/sherlock/escarlata.gif",
+    "titulo": "Estudio en escarlata - El signo de los cuatro",
+    "sipnosis": "Estudio en escarlata es el arranque para nuestra inmortal dupla. El primero es vanidoso como un niño con una monstruosa especialización; si no tiene un caso interesante se muere de tedio. Watson, al contrario, busca para sí una porción de felicidad.",
+    "precio": 2000
+  },
+  {
+    "imagen": "../../img/sherlock/aventuras.jpg",
+    "titulo": "Las aventuras de Sherlock Holmes",
+    "sipnosis": "Holmes siempre se anda quejando de que los criminales de hoy en día son una verdadera decepción. Ya hasta los asesinos en serie y los cadáveres en serie son aburridísimos. Pues en estos cuentos tiene lo que busca.",
+    "precio": 1500
+  },
+  {
+    "imagen": "../../img/sherlock/sabueso.jpg",
+    "titulo": "El sabueso de los Baskerville - Memorias de Sherlock Holmes",
+    "sipnosis": "En esta historia cuestra creer que no haya presencias sobrenaturales y que todo se resuelva por la pura razón. El paramo que rodea la mansión Baskerville, la ciénaga de crímenes y sobre todo el aullido del mastín del infierno, hacen que sea una de las novelas mas emblemáticas del detective.",
+    "precio": 2000
+  },
+  {
+    "imagen": "../../img/sherlock/reaparicion.jpg",
+    "titulo": "La reaparición de Sherlock Holmes",
+    "sipnosis": "Holmes retorna en efecto, pero de la manera drámatica y teatral que a el le gusta. Su chiste casi le cuesta la vida al pobre Watson, quien estuvo a punto de morir de la impresión.",
+    "precio": 1500
+  },
+  {
+    "imagen": "../../img/sherlock/valle.gif",
+    "titulo": "El valle del terror - Recuerdos de Sherlock Holmes",
+    "sipnosis": "Malvados, muchos y sarcásticos, que hasta ahora no habíamos tenido en un caso de Holmes. Al parecer esta gente considera que matar sin divertirse no tiene gracia. Son capaces de quedarse miles de minutos escuchando a sus victimas pidiendoles piedad.",
+    "precio": 1500
+  },
+  {
+    "imagen": "../../img/sherlock/archivo.webp",
+    "titulo": "El archivo de Sherlock Holmes",
+    "sipnosis": "Holmes aquí brilla más que nunca con sus mordaces maldades para con Watson. Es, en realidad, su víctima predilecta. Pero cuando, en cierta aventura, cree que su amigo está en peligro mortal, sale a la luz todo su cariño por él. Este libro, por ser el último, es uno de los más ricos y chispeantes.",
+    "precio": 1500
+  }
+]
