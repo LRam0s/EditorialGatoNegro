@@ -49,6 +49,7 @@ function borrarCarro(id) {
 }
 function borrarCompleto() {
   productosEnCarro = [];
+  localStorage.setItem("productosEnCarro", JSON.stringify(productosEnCarro));
   cartRender();
 }
 
@@ -120,8 +121,43 @@ function totalCart() {
     `;
   document.getElementById("totalCart").innerHTML = aux;
 }
+/* Funciones - Sweet alert */
+function launchingAlert() {
+  Swal.fire({
+    title:
+      "Ingrese su correo electrónico para que le avisemos cuando este disponible.",
+    input: "text",
+    inputAttributes: {
+      autocapitalize: "off",
+    },
+    showDenyButton: true,
+    confirmButtonText: "Confirmar",
+    denyButtonText: `No me interesa`,
+    showLoaderOnConfirm: true,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire("Su correo ha sido registrado.", "", "success");
+    } else if (result.isDenied) {
+      Swal.fire(
+        "No se preocupe, puede ingresar desde colecciones cuando este disponible.",
+        "",
+        "info"
+      );
+    }
+  });
+}
 
-/* Async - Await */
+function contactAlert() {
+  Swal.fire({
+    position: "center",
+    icon: "success",
+    title: "Tus datos han sido guardados. Nos comunicaremos a la brevedad.",
+    showConfirmButton: false,
+    timer: 2000,
+  });
+}
+
+/* Async - Await - Operador AND */
 
 const renderSherlock = async () => {
   const resp = await fetch("../../JSON/sherlock.json");
@@ -157,39 +193,3 @@ renderEsdla();
 renderWitcher();
 renderPoe();
 renderAll();
-
-/* Sweet alert */
-function launchingAlert() {
-  Swal.fire({
-    title:
-      "Ingrese su correo electrónico para que le avisemos cuando este disponible.",
-    input: "text",
-    inputAttributes: {
-      autocapitalize: "off",
-    },
-    showDenyButton: true,
-    confirmButtonText: "Confirmar",
-    denyButtonText: `No me interesa`,
-    showLoaderOnConfirm: true,
-  }).then((result) => {
-    if (result.isConfirmed) {
-      Swal.fire("Su correo ha sido registrado.", "", "success");
-    } else if (result.isDenied) {
-      Swal.fire(
-        "No se preocupe, puede ingresar desde colecciones cuando este disponible.",
-        "",
-        "info"
-      );
-    }
-  });
-}
-
-function contactAlert() {
-  Swal.fire({
-    position: "center",
-    icon: "success",
-    title: "Tus datos han sido guardados. Nos comunicaremos a la brevedad.",
-    showConfirmButton: false,
-    timer: 2000,
-  });
-}
