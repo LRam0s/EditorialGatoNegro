@@ -1,17 +1,12 @@
-//Comentarios para entrega//
-Se agregan los archivos JSON de cada lista de productos.
-Se agrega Fetch tomando los archivos JSON locales para realizar el render de las listas de productos.
-/////////////
-
 Bienvenidos al sitio web de Editorial Gato Negro.
 
 El sitio web consta de 5 páginas interrelacionadas entre sí por medio de sus respectivos links.
 Inicio: Se encuentra el logo de la editorial junto con una bienvenida.
-Colecciones: Se encuentran las colecciones disponibles en la editorial junto con sus respectivas explicaciones, a su vez, dentro de cada coleccion se encuentran los libros correspondientes que puede agregar al carrito..
-Lanzamientos: Se encuentran los futuros lanzamientos que estarán en la editorial, puede reservar aquellos libros que le interesen para que cuando esten disponibles le avisen a su correo..
+Colecciones: Se encuentran las colecciones disponibles en la editorial junto con sus respectivas explicaciones, a su vez, dentro de cada coleccion se encuentran los libros correspondientes que puede agregar al carrito.
+Lanzamientos: Se encuentran los futuros lanzamientos que estarán en la editorial, puede reservar aquellos libros que le interesen para que cuando esten disponibles le avisen a su correo.
 Sobre nosotros: Se explica dónde se encuentra y cuales fueron sus origenes.
 Contacto: En esta página podrán contactarse con la editorial por medio del formulario, como tambien ver los datos de contacto.
-Carrito: Se puede ver todos los productos que se agregaron y puede realizar la compra allí.
+Carrito: Se puede ver todos los productos que se agregaron, se suman los precios de los mismos, se puede vaciar el carrito como tambien seguir comprando.
 
 SEO del sitio web
 
