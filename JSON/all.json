@@ -1,0 +1,158 @@
+[
+  {
+    "imagen": "../../img/sherlock/escarlata.jpg",
+    "titulo": "Estudio en escarlata - El signo de los cuatro",
+    "sipnosis": "Estudio en escarlata es el arranque para nuestra inmortal dupla. El primero es vanidoso como un niño con una monstruosa especialización; si no tiene un caso interesante se muere de tedio. Watson, al contrario, busca para sí una porción de felicidad.",
+    "precio": 2000
+  },
+  {
+    "imagen": "../../img/sherlock/aventuras.jpg",
+    "titulo": "Las aventuras de Sherlock Holmes",
+    "sipnosis": "Holmes siempre se anda quejando de que los criminales de hoy en día son una verdadera decepción. Ya hasta los asesinos en serie y los cadáveres en serie son aburridísimos. Pues en estos cuentos tiene lo que busca.",
+    "precio": 1500
+  },
+  {
+    "imagen": "../../img/sherlock/sabueso.jpg",
+    "titulo": "El sabueso de los Baskerville - Memorias de Sherlock Holmes",
+    "sipnosis": "En esta historia cuestra creer que no haya presencias sobrenaturales y que todo se resuelva por la pura razón. El paramo que rodea la mansión Baskerville, la ciénaga de crímenes y sobre todo el aullido del mastín del infierno, hacen que sea una de las novelas mas emblemáticas del detective.",
+    "precio": 2000
+  },
+  {
+    "imagen": "../../img/sherlock/reaparicion.jpg",
+    "titulo": "La reaparición de Sherlock Holmes",
+    "sipnosis": "Holmes retorna en efecto, pero de la manera drámatica y teatral que a el le gusta. Su chiste casi le cuesta la vida al pobre Watson, quien estuvo a punto de morir de la impresión.",
+    "precio": 1500
+  },
+  {
+    "imagen": "../../img/sherlock/valle.jpg",
+    "titulo": "El valle del terror - Recuerdos de Sherlock Holmes",
+    "sipnosis": "Malvados, muchos y sarcásticos, que hasta ahora no habíamos tenido en un caso de Holmes. Al parecer esta gente considera que matar sin divertirse no tiene gracia. Son capaces de quedarse miles de minutos escuchando a sus victimas pidiendoles piedad.",
+    "precio": 1500
+  },
+  {
+    "imagen": "../../img/sherlock/archivo.jpg",
+    "titulo": "El archivo de Sherlock Holmes",
+    "sipnosis": "Holmes aquí brilla más que nunca con sus mordaces maldades para con Watson. Es, en realidad, su víctima predilecta. Pero cuando, en cierta aventura, cree que su amigo está en peligro mortal, sale a la luz todo su cariño por él. Este libro, por ser el último, es uno de los más ricos y chispeantes.",
+    "precio": 1500
+  },
+  {
+    "imagen": "../../img/esdla/hobbit.jpg",
+    "titulo": "El Hobbit",
+    "sipnosis": "Sacado de su cómodo agujeto-hobbit por Gandalf y una banda de enanos, Bilbo Bolsón se encuentra de pronto en medio de una conspiración que pretende apoderarse del tesoro de Smaug el Magnífico, un enorme y muy peligroso dragón... ",
+    "precio": 2500
+  },
+  {
+    "imagen": "../../img/esdla/esdla1.jpg",
+    "titulo": "El señor de los anillos - La comunidad del anillo",
+    "sipnosis": "En la adormecida e idílica Comarca, un joven hobbit recibe un encargo: custodiar el Anillo Único y emprender el viaje para su destrucción en las Grietas del Destino. Consciente de la importancia de su misión, Frodo abandona la Comarca e inicia el camino hacia Mordor con la compañía de inesperada de Sam, Pippin y Merry.  Pero sólo con la ayuda de Aragorn conseguirán vencer a los Jinetes Negros y alcanzar el refugio de la Casa de Elrond en Rivendel.",
+    "precio": 2000
+  },
+  {
+    "imagen": "../../img/esdla/esdla2.jpg",
+    "titulo": "El señor de los anillos - Las dos torres",
+    "sipnosis": "La Compañía se ha disuelto y sus integrantes emprenden caminos separados. Frodo y Sam continúan solos su viaje a lo largo del río Anduin, perseguidos por la sombra misteriosa de un ser extraño que también ambiciona la posesión del Anillo. Mientras, hombres, elfos y enanos se preparan para la batalla final contra las fuerzas del Señor del Mal.",
+    "precio": 2000
+  },
+  {
+    "imagen": "../../img/esdla/esdla3.jpg",
+    "titulo": "El señor de los anillos - El retorno del rey",
+    "sipnosis": "Los ejércitos del Señor Oscuro van extendiendo cada vez más su maléfica sombra por la Tierra Media. Hombres, elfos y enanos unen sus fuerzas para presentar batalla a Sauron y sus huestes. Ajenos a estos preparativos, Frodo y Sam siguen adentrándose en el país de Mordor en su heroico viaje para destruir el Anillo de Poder en las Grietas del Destino.",
+    "precio": 2000
+  },
+  {
+    "imagen": "../../img/witcher/witcher1.jpg",
+    "titulo": "El último deseo",
+    "sipnosis": "Geralt de Rivia, brujo y mutante sobrehumano, se gana la vida como cazador de monstruos en una tierra de magia y maravilla: con sus dos espadas al hombro -la de acero para hombres, y la de plata para bestias- da cuenta de estriges, manticoras, grifos, vampiros, quimeras y lobisomes, pero sólo cuando amenazan la paz. Irónico, cínico, descreído y siempre errante, sus pasos lo llevan de pueblo en pueblo ofreciendo sus servicios, hallando las más de las veces que los auténticos monstruos se esconden bajo rostros humanos. En su camino sorteará intrigas, elegirá el mal menor, debatirá cuestiones de precio, hollará el confín del mundo y realizará su último deseo: así comienzan las aventuras del brujo Geralt de Rivia.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/witcher/witcher2.jpg",
+    "titulo": "La espada del destino",
+    "sipnosis": "La vida de un brujo cazador de monstruos no es fácil. Tan pronto puede uno tener que meterse hasta el cuello en un estercolero para eliminar a la bestia carroñera que amenaza la ciudad, intentado no atrapar una infección incurable, como se puede encontrar unido a la cacería de uno de los últimos dragones, en la que la cuestión no es si los cazadores conseguirán matar a la pobre bestia, sino qué pasará cuando tengan que repartirse el botín. Magos, príncipes, estarostas, voievodas, druidas, vexlings, dríadas, juglares y criaturas de todo pelaje pueblan esta tierra, enzarzados en conflictos de supervivencia, codicia y amor, y entre ellos avanza, solitario, el brujo Geralt de Rivia. ",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/witcher/witcher3.jpg",
+    "titulo": "La sangre de los elfos",
+    "sipnosis": "En verdad os digo que se acerca el tiempo de la espada y el hacha, la época de la tormenta salvaje. Se acerca el Tiempo del Invierno Blanco y de la Luz Blanca. El Tiempo de la Locura y el Tiempo del Odio, el Tiempo del Fin. El mundo morirá entre la escarcha y resucitará de nuevo junto con el nuevo sol. Resucitará de entre la Antigua Sangre, de Hen Ichaer, de la semilla sembrada. De la semilla que no germina sino que estalla en llamas. ¡Así será! ¡Contemplad las señales! Qué señales sean, yo os diré: primero se derramará sobre la tierra la sangre de los Aen Seidhe, la Sangre de los Elfos... Aen Ithlinnespeath, profecía de Ithlinne",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/witcher/witcher4.jpg",
+    "titulo": "Tiempo de odio",
+    "sipnosis": "Decir que la conocí sería una exageración. Pienso que, excepto el brujo y la hechicera, nadie la conoció de verdad jamás. Cuando la vi por vez primera no me causó especial impresión, incluso pese a las extraordinarias circunstancias que lo acompañaron. Sé de algunos que han afirmado que al instante, a primera vista, percibieron el hálito de la muerte que seguía a esta muchacha. A mí sin embargo me pareció completamente normal, y ya por entonces sabía yo que no era normal, por eso me esforcé en mirar, descubrir, percibir lo extraordinario en ella. Pero nada vi y nada percibí. Nada que pudiera haber sido señal, presentimiento ni profecía de los trágicos acontecimientos posteriores. Aquéllos de los que fue causa. Y aquéllos que ella misma provocó. Jaskier",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/witcher/witcher5.jpg",
+    "titulo": "Bautismo de fuego",
+    "sipnosis": "Entonces le dijo la profetisa al brujo: 'Este consejo te doy: ponte botas de yerro, toma en la mano un bastón de yerro. Ve con tus botas de yerro hasta el fin del mundo y por el camino agita el bastón y riega todo con lágrimas. Ve a través de la agua y el fuego, no te detengas ni mires a tu alredor. Y cuando las almadreñas se te desgasten, cuando el bastón de yerro se deshaga, cuando el viento y el calor te sequen los ojos de tal forma que de ellos ni una lágrima acierte a escapar, entonces, en el fin del mundo, hallarás lo que buscas y lo que amas. Pudiera ser'. Y el brujo cruzó la agua y el fuego, sin mirar a su alrededor. Pero no se puso botas de yerro ni tomó bastón. Sólo llevó su espada de brujo. No escuchó las palabras de la profetisa. Y bien que hizo, porque era una mala profetisa.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/witcher/witcher6.jpg",
+    "titulo": "La torre de la golondrina",
+    "sipnosis": "-Puedo darte todo lo que desees -dijo el hada-. Riqueza, poder y cetro, fama, una vida larga y feliz. Elige. -No quiero riqueza ni fama, poder ni cetros -respondió la bruja-. Quiero un caballo que sea negro y tan imposible de alcanzar como el viento de la noche. Quiero una espada que sea luminosa y afilada como los rayos de la luna. Quiero atravesar el mundo en la oscura noche con mi caballo negro, quiero quebrar las fuerzas del Mal y de la Oscuridad con mi espada de luz. Eso es lo que quiero.-Te daré un caballo que será más negro que la noche y más ligero que el viento de la noche -le prometió el hada-. Te daré una espada que será más luminosa y afilada que los rayos de la luna. Pero no es poco lo que pides, bruja, habrás de pagármelo muy caro. -¿Con qué? En verdad nada tengo.-Con tu sangre.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/witcher/witcher7.jpg",
+    "titulo": "La dama del lago",
+    "sipnosis": "De las llamitas, algunas altas y poderosas eran, vivamente brillaban y con claridad, otras por su parte eran pequeñas, vacilantes y temblorosas, y oscurecíase su luz y amortiguábase a trechos. En el mismo final había una llamita pequeña y tan débil que apenas ardía, apenas se removía, ora brillando con gran esfuerzo, ora casi, casi apagándose del todo. -¿De quién es ese fueguecillo moribundo? -preguntó el brujo.-Tuyo -respondió la Muerte.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/witcher/witcher8.jpg",
+    "titulo": "Estación de tormentas",
+    "sipnosis": "Poco sabía el brujo Geralt de Rivia lo que le esperaba al acudir a la villa costera de Kerack. Primero fue acusado injustamente de desfalco, luego fue misteriosamente liberado bajo fianza, y finalmente descubrió que sus preciadas espadas, dejadas en depósito al entrar en la ciudad, habían desaparecido. Demasiadas casualidades, en efecto, y máxime cuando tras ellas está la atractiva hechicera Lytta Neyd, llamada Coral. De esta manera, Geralt de Rivia se encuentra de nuevo implicado en los escabrosos asuntos de los magos, y ni la fiel (aunque ocasionalmente engorrosa) compañía del trovador Jaskier, ni el recuerdo de su amada Yennefer, ni toda su fama como implacable cazador de monstruos podrán evitar que se vea cada vez más envuelto en una oscura trama. Más bien al contrario.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe1.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen I",
+    "sipnosis": "Sumérjase en las palabras y las imágenes del maestro de la poesía estadounidense, Edgar Allan Poe. Con obras de arte contemporáneas, ilustraciones y diseños de página de época, esta colección bellamente restaurada contiene todo lo necesario para los fanáticos de Poe, principiantes, expertos y estudiantes por igual.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe2.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen II",
+    "sipnosis": "Continúe con su colección de diez volúmenes de Obras completas de Edgar Allan Poe con este libro de cuentos que incluye MS. Encontrado en una botella, Sombra: una parábola, Narrativa de A. Gordon Pym, Cuatro bestias en una y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe3.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen III",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 3, contienen nueve cuentos, incluida la Narrativa de A. Gordon Pym (continuación del Volumen 2), Ligeia, Cómo escribir un artículo de Blackwood, Un predicamento, Silencio: una fábula, El diablo en el Campanario, y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe4.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen IV",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 4, presenta quince cuentos ilustrados de lo macabro del maestro estadounidense original del horror y la intriga. Algunos de los cuentos contenidos; Mistificación , El hombre de negocios , Nunca le apuestes al diablo tu cabeza , Eleonora , La máscara de la muerte roja , y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe5.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen V",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 5, presenta doce cuentos macabros ilustrados del maestro estadounidense original del horror y la intriga. Algunos de los cuentos contenidos; El misterio de Marie Rogêt , El pozo y el péndulo , El corazón delator , El gato negro , El entierro prematuro , y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe6.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen VI",
+    "sipnosis": "Las Obras completas de Edgar Allan Poe, Volumen 6, presenta dieciocho cuentos ilustrados del maestro estadounidense original del terror y la intriga. Algunos de los cuentos contenidos; Algunas palabras con una momia , El ángel de lo extraño , El poder de las palabras , El diablillo de lo perverso , El barril de amontillado , La cabaña de Landor , y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe7.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen VII",
+    "sipnosis": "El Volumen 7 de las Obras completas de Edgar Allan Poe se titula 'Críticas' y contiene el punto de vista de Poe sobre escritores como Charles Dickens, Robert M. Bird, George P. Morris, Frederick Marryat, Henry Cockton, Longfellow, Rufus Dawes y más.",
+    "precio": 1800
+  },
+  {
+    "imagen": "../../img/poe/poe8.jpg",
+    "titulo": "Historias completas de Edgard Allan Poe. Volumen VIII",
+    "sipnosis": "El volumen 8 de las Obras completas de Edgar Allan Poe se titula CRÍTICAS y contiene el punto de vista de Poe sobre escritores como Henry Cary, J. Fenimore Cooper, R.H. Horne, Amelia Welby, William W. Lord, Elizabeth Oakes Smith y más.",
+    "precio": 1800
+  }
+]

@@ -1,36 +1,49 @@
 /* MAIN - Media Queries */
 
-main{
-   min-height: 100%;
-   width: 100%;
-   @include flex (column, flex-start, nowrap, stretch, center, 4rem);
-   padding: 4rem;
+main {
+  min-height: 100%;
+  width: 100%;
+  @include flex(column, flex-start, nowrap, stretch, center, 4rem);
+  padding: 4rem;
 }
 
-.main_title{
-    background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.612),rgba(135, 107, 65, 0.612)  );
-    height: 8rem;
-    max-width: 40rem;
-    font-size: 2em;
-    border-radius: 10px;
-    position: inherit;
-    @include flex (row, center, nowrap, stretch, center, 4rem);
-    padding: 4rem;
-    flex: 1 1 auto;
- }
- .main_area__box{
-    background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.612),rgba(135, 107, 65, 0.612)  );
-    border-radius: 1em;
-    height: auto;
- }
- .main_area__box--about{
-   background-image: linear-gradient(to bottom,rgba(124, 122, 119, 0.812),rgba(135, 107, 65, 0.812)  );border-radius: 1em;
-   height: auto;
-   max-width: 1220px;
- }
+.main_title {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(124, 122, 119, 0.812),
+    rgba(135, 107, 65, 0.812)
+  );
+  height: 8rem;
+  max-width: 40rem;
+  font-size: 2em;
+  border-radius: 10px;
+  position: inherit;
+  @include flex(row, center, nowrap, stretch, center, 4rem);
+  padding: 4rem;
+  flex: 1 1 auto;
+}
+.main_area__box {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(124, 122, 119, 0.812),
+    rgba(135, 107, 65, 0.812)
+  );
+  border-radius: 1em;
+  height: auto;
+}
+.main_area__box--about {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(124, 122, 119, 0.812),
+    rgba(135, 107, 65, 0.812)
+  );
+  border-radius: 1em;
+  height: auto;
+  max-width: 1220px;
+}
 
- @media screen and (max-width:720px){
-    main{
-      @include flex (column, flex-start, nowrap, stretch, center, normal);
-    }
- }
+@media screen and (max-width: 720px) {
+  main {
+    @include flex(column, flex-start, nowrap, stretch, center, normal);
+  }
+}
