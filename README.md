@@ -8,7 +8,7 @@
 
 ---
 
-![](./img/Logoblanco.png)
+![](./img/logoNegro.png)
 
 La aplicación web de Gato Negro Editorial es un Ecommerce no funcional que sido realizado utilizando HTML, Css, Scss, Bootstrap, Javascript. Se pueden realizar todas las acciones excepto la compra de los productos. No tiene ninguna api de pagos relacionada.
 
