@@ -1,36 +1,37 @@
-Bienvenidos al sitio web de Editorial Gato Negro.
+## Tabla de contenidos
 
-El sitio web consta de 5 páginas interrelacionadas entre sí por medio de sus respectivos links.
-Inicio: Se encuentra el logo de la editorial junto con una bienvenida.
-Colecciones: Se encuentran las colecciones disponibles en la editorial junto con sus respectivas explicaciones, a su vez, dentro de cada coleccion se encuentran los libros correspondientes que puede agregar al carrito.
-Lanzamientos: Se encuentran los futuros lanzamientos que estarán en la editorial, puede reservar aquellos libros que le interesen para que cuando esten disponibles le avisen a su correo.
-Sobre nosotros: Se explica dónde se encuentra y cuales fueron sus origenes.
-Contacto: En esta página podrán contactarse con la editorial por medio del formulario, como tambien ver los datos de contacto.
-Carrito: Se puede ver todos los productos que se agregaron, se suman los precios de los mismos, se puede vaciar el carrito como tambien seguir comprando.
+1. [Información General](#Información_General)
+2. [Deployment](#Deployment)
+3. [Instalación local](#Instalación_local)
 
-SEO del sitio web
+### Información General
 
-Index: title = Editorial Gato Negro | Inicio
-keywords = LIBROS, EDITORIAL, GATO NEGRO, COMPRAR LIBROS, NUEVOS, PUBLICAR, NOVELAS, NOVELA NEGRA, CUENTOS, POESIA
-description = Gato Negro es una editorial que se encarga de publicar y distribuir los titulos mas solicitados del mundo de la literatura,
-como también dar oportunidades a quienes quieran publicar un libro por primera vez.
+---
 
-Collections: title = Editorial Gato Negro | Colecciones
-keywords = LIBROS, EDITORIAL, GATO NEGRO, COMPRAR LIBROS, NUEVOS, COLECCIONES, PUBLICACIONES, SAGA, BESTSELLER, OFERTA, DESCUENTOS
-description = Gato Negro es una editorial en la cual se aglutinan las sagas y colecciones de mayor renombre del mundo de la literatura, vas a poder conseguir el libro que tanto buscabas.
-Al comprar colecciones completas contaras con descuentos de comercio
+![](./img/Logoblanco.png)
 
-Launching: title = Editorial Gato Negro | Lanzamientos
-keywords = LIBROS, EDITORIAL, GATO NEGRO, COMPRAR LIBROS, NUEVOS, LANZAMIENTOS, PROXIMAMENTE, NOVEDAD, PREVENTA
-description = Gato Negro es la editorial que te mantendrá siempre informado sobre los nuevos lanzamientos del mundo literario, asi también como de las publicaciones de todos aquellos pequeños escritores que incursionan por primera vez en este mundo.
-Podrás acceder a diferentes preventas que te permitiran conseguir los libros que buscabas al mejor precio del mercado
+La aplicación web de Gato Negro Editorial es un Ecommerce no funcional que sido realizado utilizando HTML, Css, Scss, Bootstrap, Javascript. Se pueden realizar todas las acciones excepto la compra de los productos. No tiene ninguna api de pagos relacionada.
 
-About: title = Editorial Gato Negro | Sobre nosotros
-keywords = LIBROS, EDITORIAL, GATO NEGRO, COMPRAR LIBROS, NUEVOS, NOSOTROS, INFORMACION, ORIGEN, MOTIVACIONES, ASPIRACIONES, OBJETIVOS
-description = Gato Negro es una editorial que ha sido concebida como una oportunidad para aquellos que siempre quisieron publicar sus historias sin formar parte del mainstream.
-Les contaremos el origen de la idea de gato negro y sus objetivos a futuro.
+Gato Negro Editorial en un lugar en el cual van a poder encontrar las colecciones de libros aclamadas por el público como tambien aquellas obras de autores independientes que vienen a dar un golpe sobre la msesa. 
 
-Contact: title = Editorial Gato Negro | Contacto
-keywords = LIBROS, EDITORIAL, GATO NEGRO, COMPRAR LIBROS, NUEVOS, CONTACTO, CONTACTARNOS, OPORTUNIDAD, COMUNICACION, ATENCION AL PUBLICO
-description = Gato Negro es una editorial que se caracteriza por mantener un lazo estrecho con su comunidad. Podrás comunicarte con nosotros por este medio, tanto para presentar tu libro en nuestra editorial para que
-lo revisemos, como para resolver dudas que tengas sobre nuestro trabajo y los servicios que brindamos. También podras hacer los reclamos correspondientes ante alguna falla de nuestros productos.
+## Deployment
+
+Puede ingresar a la aplicación ingresando al siguiente link:
+[Gato Negro Editorial](https://editorial-gatonegro.netlify.app/)
+
+Vistas:
+
+- Home: Se encuentra la pantalla de inicio de la aplicación, podrán acceder a las diferentes vistas el navBar.
+- Colecciones: Se encuentran las colecciones disponibles en la editorial junto con sus respectivas explicaciones, a su vez, dentro de cada coleccion se encuentran los libros correspondientes que puede agregar al carrito.
+- Lanzamientos: Se encuentran los futuros lanzamientos que estarán en la editorial, puede reservar aquellos libros que le interesen para que cuando esten disponibles le avisen a su correo.
+- Nosotros:Se explica dónde se encuentra y cuales fueron sus origenes.
+- Contacto: En esta página podrán contactarse con la editorial por medio del formulario, como tambien ver los datos de contacto.
+- Carrito: Se puede ver todos los productos que se agregaron, se suman los precios de los mismos, se puede vaciar el carrito como tambien seguir comprando.
+
+## Instalación local
+
+---
+
+```
+$ git clone https://github.com/LRam0s/EditorialGatoNegro.git
+```
